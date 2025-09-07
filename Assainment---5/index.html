@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+
+ <header>
+        <nav class="flex justify-between items-center">
+            <div class=" gap-2 flex justify-center items-center m-6"> 
+                <img class="h-15" src="./assets/logo-dark.png" alt="">
+                <p class="font-bold text-[22px] text-green-900">Emergency <br>Service</p>
+            </div>
+
+            <div class="flex">
+                <ul class="flex gap-12 m-8">
+                    <li class="flex justify-center items-center bg-green-100 font-bold px-3 rounded-2xl cart-btnsccc"><span id="total-quntitysss">0</span><img class="h-8 p-1" src="./assets/heart.png" alt=""></li>
+
+                    <li class="flex justify-center items-center bg-green-100 font-bold px-3 rounded-2xl"><span id="total-pricess">100</span><img class="h-8 p-1 " src="./assets/coin.png" alt=""></li>
+
+
+                    <li class=" flex justify-center items-center bg-green-100 font-bold px-3 ccc rounded-2xl"><span id="copy-btn" class="p-1">0</span> Copy</li>
+                </ul>
+            </div>
+    </header>
+
+
+
+
+
+
+
+
+
+     <section>
+        <div class=" bg-[#013223] pb-5  ">
+            <div class="mx-auto pt-5 ">
+            <img class="h-20 mx-auto " src="./assets/logo-dark.png" alt=""><br>
+                </div>
+
+            <h2 class="mx-auto flex justify-center text-white font-bold text-[30px]">Emergency Service Directory </h2> <br> 
+
+            <p class="flex justify-center text-white" >Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+            </div>
+        
+     </section>
+
+     <main class="bg-green-100">
+    <section id="banner"></section>
+
+
+
+
+    <section id="porducts-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
+
+        <section id="product-box" class="col-span-9 ">
+<!-- .........product-1.......  -->
+            <div class="Kitchenware">
+                
+
+                <div class="   grid  grid-cols-3   gap-3">
+                          
+
+
+<!-- /////////////////////// -->
+
+
+            <!-- 1..........pro-card .............. -->
+                    <div id="pop" class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/emergency.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">National Emergency Number</h2>
+    <h4 class="text-gray-600 pt-2">National Emergency</h4> 
+      <h4 id="cardTextsss" class="font-bold mt-2 cardText mb-1 text-[30px] ">999</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">All</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black copyBtn outline-none text-gray-400 px-11  rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+
+
+
+            <!-- 2..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/police.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl"  id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Police Helpline Number</h2>
+    <h4 class="text-gray-600 pt-2">Police</h4> 
+      <h4 id="cardText" class="font-bold mt-2 mb-1 cardText text-[30px] ">999</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">Police</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black outline-none copyBtn  text-gray-400 px-11  rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+            <!-- 3..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/fire-service.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Fire Service Number</h2>
+    <h4 class="text-gray-600 pt-2">Fire Service</h4> 
+      <h4 id="heart-btn" class="font-bold card-Text mt-2 mb-1 text-[30px] ">999</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">Fire</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black outline-none text-gray-400 px-11 copyBtn rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 4..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets//ambulance.png " alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">National Emergency Number</h2>
+    <h4 class="text-gray-600 pt-2">Ambulance</h4> 
+      <h4 id="cardText" class="font-bold mt-2 mb-1  card-text text-[30px] ">1994-999999</h4>
+     
+     <div class="badge bg-gray-200 p-3 rounded-xl">Health</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button id="" onclick="copyText(this)"  class="btn hover:bg-black copyBtn outline-none text-gray-400 px-11  rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+            <!-- 5..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/emergency.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Women & Child Helpline</h2>
+    <h4 class="text-gray-600 pt-2">Women & Child Helpline</h4> 
+      <h4 id="cardTextsss" class="font-bold mt-2  cardText mb-1 text-[30px] ">109</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">Help</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button   class="btn hover:bg-black outline-none text-gray-400 px-11 copyBtn rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+            <!-- 6..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/emergency.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Anti-Corruption Helpline</h2>
+    <h4 class="text-gray-600 pt-2">Anti-Corruption</h4> 
+      <h4 id="cardText" class="font-bold mt-2 mb-1 text-[30px] ">106</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">Govt.</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black outline-none text-gray-400 px-11  rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+            <!-- 7..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/emergency.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Electricity Helpline</h2>
+    <h4 class="text-gray-600 pt-2">Electricity Outage</h4> 
+      <h4 id="cardText" class="font-bold mt-2 mb-1 text-[30px] ">16216</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">Electricity</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black outline-none text-gray-400 px-11  rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+            <!-- 8..........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/emergency.png" alt=""> 
+
+    <i class="fa-regular fa-heart heart-btn text-xl" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Brac Helpline</h2>
+    <h4 class="text-gray-600 pt-2">Brac</h4> 
+      <h4 id="cardText" class="font-bold mt-2 mb-1 text-[30px] ">16445</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">NGO</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black outline-none text-gray-400 px-11  rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+            <!-- 9.........pro-card .............. -->
+                    <div class="card bg-base-100 shadow-sm p-3  ">
+  
+ <div class="flex justify-between items-center  " id="open">
+      <img class="h-12 p-2 bg-red-300 rounded-xl" src="./assets/emergency.png" alt=""> 
+
+    <i onclick="loveIcon()" class="fa-regular fa-heart heart-btn text-xl cart-btns" id="heart-btn"></i>
+    </div>
+
+
+  
+    <h2 class="font-bold pt-3 text-[18px]">Bangladesh Railway Helpline </h2>
+    <h4 class="text-gray-600 pt-2">Bangladesh Railway</h4> 
+      <h4 id="cardText" class="font-bold mt-2 mb-1 text-[30px] ">163</h4>
+     <div class="badge bg-gray-200 p-3 rounded-xl">Travel</div>
+
+  <div class="mt- flex md:flex-row sm:flex-col  sm:w-full gap-2 pt-9 m-auto ">
+      
+
+
+<button onclick="copyText()"  class="btn hover:bg-black outline-none text-gray-400 px-11 copyBtn rounded-lg"> <i class="fa-regular fa-copy"></i>Copy</button>
+
+
+
+<button class="btn hover:bg-gray-600 rounded-lg cart-btn  outline-none text-white bg-green-700 px-12 "> <i class="fa-solid fa-phone"></i>Call </button>
+
+
+    </div>
+</div>
+                    
+
+
+
+                    
+<!-- /////////////////////// -->
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+<!-- ................../////.......... -->
+
+          
+
+        </section>
+
+
+
+
+
+        <aside id="cart-box" class="0 col-span-3  ">
+            <!-- <div class="bg-white p-5 rounded">
+                <h2 class="font-bold mb-5">Habe a Cupon</h2>
+                <div class="join">
+  <input class="input join-item" placeholder="Email" />
+   <button class="btn join-item rounded-r-xl bg-pink-500 text-white">Apply
+  </button>
+  
+</div> -->
+
+            </div>
+
+
+            <!-- /////////// -->
+
+            <div class="cart-box h-full bg-white "> 
+              <div class=" p-5  flex justify-between items-center mb-5">
+              <h2 class="font-bold "><i class="fa-regular fa-clock"></i> Call History</h2>
+                <!-- <h2 class="font-bold">Cart</h2>
+                <div class="" id="cart-container"></div>
+                <div class="">
+                    <h2>Total Price: <span id="total-price">0</span>TK</h2>
+                     <h2>Total Quantity<span id="total-price">Items</span> TK</h2> -->
+                      <button id="btn-clear" class="btn bg-pink-500 text-white  rounded-3xl px-8">Clear
+  </button></div>
+
+   <div class="space-y-3 m-5" id="cart-container">
+
+                  
+
+
+                </div>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+        </aside>
+    </section>
+</main>
+
+
+
+
+
+
+    <script src="./jomuna.js"></script>
+</body>
+</html>
